@@ -1,0 +1,46 @@
+baseURL = 'http://schwerberg.com/'
+languageCode = 'en-us'
+title = 'Jason Schwerberg'
+theme = ["hugo-embed-pdf-shortcode"]
+enableInlineShortcodes = true
+canonifyUrls = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/manid2/hugo-xterm"
+
+[params]
+  centerTheme = true
+  showMenuItems = true
+  favicon = "/images/xterm.png"
+  showBreadCrumbs = true
+  toc = true
+  copyrightUserUrl = "https://github.com/JSchwerberg"
+  copyrightUserText = "Jason Schwerberg"
+
+[languages]
+  [languages.en.params]
+    copyright = "© Jason Schwerberg"
+    readOtherPosts = "Read other posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Home"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume/"
+
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "Socials"
+        url = "/socials/"

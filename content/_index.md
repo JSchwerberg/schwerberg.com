@@ -1,11 +1,7 @@
 ---
 title: "About"
 date: 2023-08-19T16:15:38-07:00
-draft: true
+draft: false
 ---
 
-Name
-: Jason Schwerberg
-
-BlueSky
-: [@junaos.cat](https://bsky.app/profile/junaos.cat)
+The personal site and microblog of Jason Schwerberg. Explore more below.

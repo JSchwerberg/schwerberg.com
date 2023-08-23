@@ -1,9 +1,10 @@
-baseURL = 'http://schwerberg.com/'
+baseURL = 'https://schwerberg.com/'
 languageCode = 'en-us'
 title = 'Jason Schwerberg'
 theme = ["hugo-embed-pdf-shortcode"]
+paginate = 20
 enableInlineShortcodes = true
-canonifyUrls = true
+canonifyurls = true
 
 [module]
   [[module.imports]]
@@ -44,3 +45,20 @@ canonifyUrls = true
         identifier = "about"
         name = "Socials"
         url = "/socials/"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
